@@ -6,7 +6,6 @@ from csv import writer
 import pandas as pd
 
 
-API_key = "AIzaSyDXO_grr6R1UoKOrBQuQrDSh6sXEc8KbS4"
 url = "https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial"
 
 # function to add new row in the result csv file
