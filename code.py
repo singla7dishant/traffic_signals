@@ -16,7 +16,7 @@ def append_list_as_row(file_name, list_of_elem):
 		csv_writer.writerow(list_of_elem)
 
 # function calls the api for source and destination and returns the api return parameters in the form of a list
-def get_api_request_list(al):
+def get_api_request_list(source_lat, source_long, dest_lat, dest_long):
 	originPoint = source_lat + "," + source_long
 	destinationPoint = dest_lat + "," + dest_long
 	api_call = url + "&origins=" + originPoint + "&destinations=" + destinationPoint + "&departure_time=now" + "&key=" + API_key
