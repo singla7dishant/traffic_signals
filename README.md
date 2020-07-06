@@ -1,6 +1,6 @@
 # traffic_signals
 
-## meant for one source-destination pair
+#### meant for one source-destination pair
 input.txt - Each line in this file contains space separated Latitude Longitude values of a place. The first line corresponding to the origin and the second corresponds with the destination. To roughly imagine, here I've considered the road from after Natural's Icecream to Essex Farms so that exactly one intersection on ring road is covered. 
 
 code.py - It has following mentioned functions each doing it's tasks as described below:
@@ -14,7 +14,7 @@ result.csv - Its results are obtained in result.csv file
 
 To run this section, use the command : python3 code.py
 
-## meant for 4 source-destination pair crossing a single intersection
+#### meant for 4 source-destination pair crossing a single intersection
 input_1.txt - Each line in this file contains space separated Latitude Longitude values of a place. Each alternate line corresponds to the source and destination alternatively. For eg. 1st line is the source and 2nd its corresponding destination, 3rd line is the source and 4th its corresponding destination and so on. Each source destination path crosses a single intersection only. 
 
 code_1.py - It has following mentioned functions each doing it's tasks as described below:
